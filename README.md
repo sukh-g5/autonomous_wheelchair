@@ -6,7 +6,7 @@ Developed as a comprehensive engineering design project, the **Teddy Bear Wheelc
 
 
 ## Key Features & Engineering Design
-- Autonomous Navigation & Sensor Integration:** Utilizes an ultrasonic sensor (`trigPin`/`echoPin`) to measure real-time distances to obstacles, dynamically switching between forward motion, reversing, stopping, and triggering an onboard servo mechanism when objects are within target thresholds.
+- Autonomous Navigation & Sensor Integration:** Utilizes an ultrasonic sensor to measure real time distances to obstacles, dynamically switching between forward motion, reversing, stopping, and triggering an onboard servo mechanism when objects are within target thresholds.
 - Dual-Mode Microcontroller Architecture:**
   - Drive Code:Manages standard PWM motor driver outputs for directional control and precise timing delays.
   - Launch/Obstacle Code: Integrates Servo libraries and ultrasonic distance logic to coordinate automated responses and safety stops.
